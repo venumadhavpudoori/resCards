@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    width: 300px;
+    margin: 20px;
+    height: auto;
+    box-shadow: 0 10px 30px -10px;
+}
+
+
+#lock{
+    filter: blur(2px);
+}
+
+.unlock{
+    z-index:1;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
+
+.title{
+    text-align: center;
+    margin: 55px 120px;
+    color: white;
+}
+
+#list{
+    float:right;
+    margin:20px;
+}
+
+.icons{
+    color: grey;
+    font-size:15px;
+    letter-spacing: 1px;
+    margin:12px 10px;
+}
